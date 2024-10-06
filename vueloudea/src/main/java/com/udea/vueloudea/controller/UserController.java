@@ -15,26 +15,13 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-<<<<<<< HEAD
     @GetMapping("/searchAll")
     public List<UserF> searchUsers(){
         return userService.findUsers();
     }
     @GetMapping("/search")
     public Optional<UserF> searchUser(@RequestParam (value = "id_user", required = true)long id_user) {
-=======
-    @GetMapping("/search")
-    public Optional<User> searchUser(@RequestParam (value = "id_user", required = false)int id_user
-                                /* @RequestParam (value = "name", required = false)String name,
-                                 @RequestParam (value = "email", required = false)String email,
-                                 @RequestParam (value = "password", required = false)String password,
-                                 @RequestParam (value = "address", required = false)String address,
-                                 @RequestParam (value = "document_number", required = false)String document_number,
-                                 @RequestParam (value = "role", required = false)String role*/) {
-
-
->>>>>>> 3c65bca4517a60bb479f31b2d795e6c301a0e208
-                                return userService.findUserById(id_user);
+        return userService.findUserById(id_user);
     }
 
     @PostMapping("/create")

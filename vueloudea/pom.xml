@@ -42,15 +42,12 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-<<<<<<< HEAD
 		</dependency>
 
 		<dependency>
 			<groupId>com.graphql-java</groupId>
 			<artifactId>graphql-java</artifactId>
 			<version>22.3</version>
-=======
->>>>>>> 3c65bca4517a60bb479f31b2d795e6c301a0e208
 		</dependency>
 
 		<dependency>
