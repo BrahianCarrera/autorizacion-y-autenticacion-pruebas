@@ -14,8 +14,8 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-@GetMapping("/search")
-public Optional<User> searchUser(@RequestParam (value = "id_user", required = false)int id_user
+    @GetMapping("/search")
+    public Optional<User> searchUser(@RequestParam (value = "id_user", required = false)int id_user
                                 /* @RequestParam (value = "name", required = false)String name,
                                  @RequestParam (value = "email", required = false)String email,
                                  @RequestParam (value = "password", required = false)String password,
@@ -41,5 +41,7 @@ public Optional<User> searchUser(@RequestParam (value = "id_user", required = fa
         userService.createUser(user);
         return  user;
     }
+
+
 
 }
