@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/vueloudea.iml" filepath="$PROJECT_DIR$/.idea/vueloudea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/autorizacion-y-autenticacion-pruebas.iml" filepath="$PROJECT_DIR$/.idea/autorizacion-y-autenticacion-pruebas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vueloudea/vueloudea.iml" filepath="$PROJECT_DIR$/vueloudea/vueloudea.iml" />
     </modules>
   </component>
 </project>

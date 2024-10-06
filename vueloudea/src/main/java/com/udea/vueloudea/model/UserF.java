@@ -1,16 +1,18 @@
 package com.udea.vueloudea.model;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import java.util.Objects;
 
-public class User {
+@Entity
+public class UserF {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id_user;
     private String name;
     private String email;
     private String password;
@@ -18,8 +20,11 @@ public class User {
     private String role;
     private String document_number;
 
-    public User(int id, String name, String email, String password, String address, String role, String document_number) {
-        this.id = id;
+    public UserF() {
+    }
+
+    public UserF(long id_user, String name, String email, String password, String address, String document_number, String role) {
+        this.id_user = id_user;
         this.name = name;
         this.email = email;
         this.password = password;
@@ -28,12 +33,12 @@ public class User {
         this.role = role;
     }
 
-    public int getId() {
-        return id;
+    public long getId_user() {
+        return id_user;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId_user(int id_user) {
+        this.id_user = id_user;
     }
 
     public String getName() {
@@ -90,14 +95,14 @@ public class User {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if(!(o instanceof User user )) return false;
+        if(!(o instanceof UserF user )) return false;
 
-        return Objects.equals(getId(), user.getId());
+        return Objects.equals(getId_user(), user.getId_user());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getId());
+        return Objects.hash(getId_user());
     }
 }
 

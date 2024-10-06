@@ -10,27 +10,24 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/roles")
-@CrossOrigin(origins = "https://localhost:3000")
+@CrossOrigin(origins = "https://localhost:5432")
 public class RoleController {
 
     @Autowired
     private RoleService roleService;
 
-    @GetMapping("/search")
+    @GetMapping("/searchAll")
     public List<Role> searchRoles(){
         return roleService.findRoles();
     }
 
     @GetMapping("/search")
-    public Optional<Role> searchRolesById(long id_role){
-
+    public Optional<Role> searchRolesById(@RequestParam (value = "id_role", required = true)long id_role){
         return roleService.findRoleById(id_role);
-
     }
 
     @PostMapping("/create")
-    public Role createRole(@RequestParam long id_role,
-            @RequestParam String role){
+    public Role createRole(@RequestParam long id_role, @RequestParam String role){
 
         Role newrole = new Role(id_role, role);
         roleService.createRole(newrole);
