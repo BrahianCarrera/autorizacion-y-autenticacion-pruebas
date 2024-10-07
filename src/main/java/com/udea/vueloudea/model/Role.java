@@ -8,6 +8,10 @@ import jakarta.persistence.Id;
 import java.io.Serializable;
 import java.util.Objects;
 
+
+
+//comentario para probar que funciona el sonarcloud
+
 @Entity
 public class Role implements Serializable {
 

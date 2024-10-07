@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb1b88c-19f3-4ed9-9aba-a4260f58fe27" name="Changes" comment="renombre rama" />
+    <list default="true" id="deb1b88c-19f3-4ed9-9aba-a4260f58fe27" name="Changes" comment="prueba unitaria" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +79,7 @@
       <updated>1728263650671</updated>
       <workItem from="1728263651759" duration="977000" />
       <workItem from="1728264644329" duration="24000" />
-      <workItem from="1728264685344" duration="732000" />
+      <workItem from="1728264685344" duration="886000" />
     </task>
     <task id="LOCAL-00001" summary="pureba en test">
       <option name="closed" value="true" />
@@ -145,7 +145,39 @@
       <option name="project" value="LOCAL" />
       <updated>1728265330506</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="renombre rama">
+      <option name="closed" value="true" />
+      <created>1728265467762</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728265467762</updated>
+    </task>
+    <task id="LOCAL-00010" summary="renombre ramas">
+      <option name="closed" value="true" />
+      <created>1728265476666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728265476666</updated>
+    </task>
+    <task id="LOCAL-00011" summary="renombre ramas">
+      <option name="closed" value="true" />
+      <created>1728265490961</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728265490961</updated>
+    </task>
+    <task id="LOCAL-00012" summary="renombre ramas">
+      <option name="closed" value="true" />
+      <created>1728265504987</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728265504987</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +187,7 @@
     <MESSAGE value="pureba en test" />
     <MESSAGE value="test definitivo" />
     <MESSAGE value="renombre rama" />
-    <option name="LAST_COMMIT_MESSAGE" value="renombre rama" />
+    <MESSAGE value="renombre ramas" />
+    <option name="LAST_COMMIT_MESSAGE" value="renombre ramas" />
   </component>
 </project>
