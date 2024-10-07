@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb1b88c-19f3-4ed9-9aba-a4260f58fe27" name="Changes" comment="test definitivo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="deb1b88c-19f3-4ed9-9aba-a4260f58fe27" name="Changes" comment="test definitivo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Usuario/Documents/repositories/coso/src",
+    "last_opened_file_path": "C:/Users/Usuario/Documents/repositories/coso",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +79,7 @@
       <updated>1728263650671</updated>
       <workItem from="1728263651759" duration="977000" />
       <workItem from="1728264644329" duration="24000" />
+      <workItem from="1728264685344" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="pureba en test">
       <option name="closed" value="true" />
@@ -122,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728264457643</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test definitivo">
+      <option name="closed" value="true" />
+      <created>1728264788713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728264788713</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test definitivo">
+      <option name="closed" value="true" />
+      <created>1728265099147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728265099147</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
