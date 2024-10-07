@@ -43,7 +43,7 @@
 			<artifactId>spring-boot-starter-graphql</artifactId>
 		</dependency>
 
-		<!-- (Optional) Include JUnit 5 if needed -->
+		<--comentario -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
