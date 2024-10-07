@@ -18,7 +18,6 @@
 		<java.version>17</java.version> <!-- Changed to 17 -->
 		<sonar.organization>autenticacion-pruebas</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.projectKey>BrahianCarrera_autorizacion-y-autenticacion-pruebas</sonar.projectKey>
 
 	</properties>
 
