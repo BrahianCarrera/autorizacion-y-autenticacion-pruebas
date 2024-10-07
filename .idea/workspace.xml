@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb1b88c-19f3-4ed9-9aba-a4260f58fe27" name="Changes" comment="prueba de sonarcloud">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="deb1b88c-19f3-4ed9-9aba-a4260f58fe27" name="Changes" comment="prueba de sonarcloud" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +80,7 @@
       <workItem from="1728263651759" duration="977000" />
       <workItem from="1728264644329" duration="24000" />
       <workItem from="1728264685344" duration="886000" />
-      <workItem from="1728265588380" duration="1896000" />
+      <workItem from="1728265588380" duration="2410000" />
     </task>
     <task id="LOCAL-00001" summary="pureba en test">
       <option name="closed" value="true" />
@@ -213,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728267321154</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="prueba de sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728267545122</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728267545122</updated>
+    </task>
+    <task id="LOCAL-00018" summary="prueba de sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728267682364</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728267682364</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
