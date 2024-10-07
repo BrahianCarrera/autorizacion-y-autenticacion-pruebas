@@ -15,10 +15,16 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @GetMapping("/")
+    public String healthCheck(){
+        return "PROYECTO ACTIVO.-...";
+    }
+
     @GetMapping("/searchAll")
     public List<UserF> searchUsers(){
         return userService.findUsers();
     }
+
     @GetMapping("/search")
     public Optional<UserF> searchUser(@RequestParam (value = "id_user", required = true)long id_user) {
         return userService.findUserById(id_user);
