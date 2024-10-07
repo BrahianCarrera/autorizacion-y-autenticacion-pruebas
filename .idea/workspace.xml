@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb1b88c-19f3-4ed9-9aba-a4260f58fe27" name="Changes" comment="prueba unitaria">
+    <list default="true" id="deb1b88c-19f3-4ed9-9aba-a4260f58fe27" name="Changes" comment="prueba de sonarcloud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/udea/vueloudea/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/udea/vueloudea/model/Role.java" afterDir="false" />
     </list>
@@ -83,7 +83,7 @@
       <workItem from="1728263651759" duration="977000" />
       <workItem from="1728264644329" duration="24000" />
       <workItem from="1728264685344" duration="886000" />
-      <workItem from="1728265588380" duration="333000" />
+      <workItem from="1728265588380" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="pureba en test">
       <option name="closed" value="true" />
@@ -189,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728265921975</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="prueba de sonarcloud">
+      <option name="closed" value="true" />
+      <created>1728266227775</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728266227775</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +209,7 @@
     <MESSAGE value="renombre rama" />
     <MESSAGE value="renombre ramas" />
     <MESSAGE value="prueba unitaria" />
-    <option name="LAST_COMMIT_MESSAGE" value="prueba unitaria" />
+    <MESSAGE value="prueba de sonarcloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="prueba de sonarcloud" />
   </component>
 </project>
