@@ -14,8 +14,11 @@ class VueloudeaApplicationTests {
 	UserController userController;
 
 	@Test
-	void health() {
-		assertEquals("PROYECTO ACTIVO.-...", userController.healthCheck());
+	void testHealthCheck() {
+		UserController userController = new UserController();
+		String response = userController.healthCheck();
+		assertEquals("PROYECTO ACTIVO.-...", response);
 	}
-
 }
+
+
