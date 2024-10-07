@@ -10,7 +10,7 @@ import java.util.Objects;
 
 
 
-//comentario 3 para probar que funciona el sonarcloud
+//comentario  para probar que funciona el sonarcloud
 
 @Entity
 public class Role implements Serializable {
